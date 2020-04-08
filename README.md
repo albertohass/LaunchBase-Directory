@@ -16,7 +16,7 @@ Pode ser acessado um resumo em [Notion](https://www.notion.so/Cronograma-Semanal
   </a
 
   <a href="https://www.linkedin.com/in/alberto-hass-9b4644168" >
-    <img alt="Alberto"  data-canonical-src="https://img.shields.io/badge/Alberto-In-blue" style="max-width:100%;">
+    <img alt="Alberto"  src="https://img.shields.io/badge/Alberto-In-blue" style="max-width:100%;">
   </a>
 
 </p>
