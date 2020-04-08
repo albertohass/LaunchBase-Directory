@@ -12,7 +12,7 @@ Pode ser acessado um resumo em [Notion](https://www.notion.so/Cronograma-Semanal
 <p align="center">
 
   <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D" data-canonical-src="https://camo.githubusercontent.com/9f4bdadb199ff8512e9dcc9d559fd531184f7862/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416c626572746f2d496e2d626c7565">
   </a
 
   <a href="https://www.linkedin.com/in/alberto-hass-9b4644168" >
