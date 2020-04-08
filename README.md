@@ -26,5 +26,5 @@ Pode ser acessado um resumo em [Notion](https://www.notion.so/Cronograma-Semanal
 
 - [Introdução a Programação Web](https://github.com/albertohass/LaunchBase-Directory/tree/master/Introducao_Programacao)
 
-## :computer: Update
+## Update
 - Os modulos serão adicionados conforme a conclusão
