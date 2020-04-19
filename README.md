@@ -28,5 +28,10 @@ Pode ser acessado um resumo em [Notion](https://www.notion.so/Cronograma-Semanal
 
 - [Iniciando com Front-End](https://github.com/albertohass/LaunchBase-Directory/tree/master/Iniciando%20FrontEnd)
 
-## Update
+## :bar_chart: Projetos
+
+- [FoodFy](https://github.com/albertohass/LaunchBase-Directory/tree/master/foodfy)
+
+
+## :clipboard: Updates
 - Os modulos serão adicionados conforme a conclusão
