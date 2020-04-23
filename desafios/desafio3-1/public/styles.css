@@ -1,0 +1,163 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap";
+
+:root{
+    --color-green: #00ff00;
+    --color-black: black;
+    --color-rocket: #7159c1;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background:black;  
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+header{
+padding: 5px;
+padding-bottom: 5px;
+border-bottom: 1px  solid var(--color-green);
+background: #111111;
+}
+
+.links{
+    text-align: center ;
+}
+
+.links a{
+    color: white;
+    font-size: 25px;
+    line-height: 42px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.links a:hover {
+    color: var(--color-green);
+    transition: color 200ms;
+}           
+
+#wrapper{
+    text-align: center;
+    padding: 50px;
+}
+
+#wrapper img{
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    height: 400px;
+}
+
+#wrapper h1{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 52px;
+}
+
+#wrapper h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#wrapper p{
+    max-width: 500px;
+    margin: 16px auto;
+    font-size: 24px;
+}
+
+
+
+#wrapper p a {
+    color: var(--color-green);
+}
+
+#links-footer a{
+    border-bottom:1px solid var(--color-green);
+}
+
+/*=== CARDS ===*/
+
+.cards{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.card{
+    background-color: var(--color-rocket);
+}
+
+.card_image-container img{
+    width: 100%;
+}
+
+.card_content,
+.card_info{
+    padding: 24px;
+}
+
+.card_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card_price{
+    background-color: var(--color-rocket);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*==== MODAL === =*/
+
+.modal-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal{
+    background-color: gray;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+.modal .close-modal{
+    color:black;
+    position: absolute;
+    right:8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+/*==== MODAL.Active === =*/
+
+.modal-overlay.active{
+    opacity: 1;    
+    visibility: visible;
+}
+
+iframe{
+    width: 100%;
+    height: 90%;
+    top:5%;
+    position: absolute;
+}
