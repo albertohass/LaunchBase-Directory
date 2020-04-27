@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top bar */
+
+header{
+    margin-top: 36px;
+    margin-left: 231px;
+}
+
+header img{
+    width: 90px;
+    height: 26.9px;
+    opacity: 100%;
+}
+
+#sobre{
+    margin-left: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    color:#111111
+}
+
+#receitas{
+    margin-left:30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#111111
+}
+
+
+.rodape{
+    background-color: #EEEEEE;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    margin-top: 5%;
+}
+
+.rodape p{
+    font-size: 14px;
+    color:  #a6a6a6;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.receita-image {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 50px;
+}
+.receita-image img {
+    border-radius: 15px;
+}
+
+.receita-title{
+    margin: 0 auto;
+    width: 500px;
+    height: 42px;
+}
+
+.receita-title .principal{
+    font-size: 36px;
+    color: #111111;
+}
+
+.receita-title .sub{
+    font-size: 20px;
+    color: #777777;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+.content{
+    margin-left: 231px;
+    padding-top: 100px;
+}
+
+
+.title{
+    max-width: 600px;
+    position: relative;
+}
+
+.cont-princ{
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+    
+}
+
+.action{
+    margin-top: 7px;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #999999;   
+    cursor: pointer;
+}
+
+.fase0{
+    font-size: 18px;
+    padding: 16px 6px 10px 16px;
+    color: #444444;
+    line-height: 28px;
+    display: block;
+}
+
+.fase1{
+    font-size: 18px;
+    padding: 16px 6px 10px 16px;
+    color: #444444;
+    line-height: 28px;
+    display: block;
+}
+
+.fase2{
+    font-size: 18px;
+    padding: 16px 6px 10px 16px;
+    color: #444444;
+    line-height: 28px;
+    display: block;
+}
+
+.info{
+    padding-top: 50px;
+    max-width: 1400px;
+}
+
+.hidden{
+    display: none;
+}
+

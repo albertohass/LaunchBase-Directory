@@ -3,7 +3,8 @@ module.exports = [
         id:"GykTLqODQuU",
         title: "Formulário Animado com Js puro + Css Animation | Mayk Brito",
         duration: "57 Min",
-        price: "free"
+        price: "free",
+        featured: true
     },
     {
         id:"HN1UjzRSdBk",
@@ -15,7 +16,8 @@ module.exports = [
         id:"rAzHvYnQ8DY",
         title: "Array: Higher Order Functions | Mayk Brito",
         duration: "57 Min",
-        price: "free"
+        price: "free",
+        featured: true
     },
     {
         id:"ghTrp1x_1As",
@@ -27,7 +29,8 @@ module.exports = [
         id:"2alg7MQ6_sI",
         title: "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
         duration: "33 Min",
-        price: "free"
+        price: "free",
+        featured: true
     },
     {
         id:"GSqR2i-Pq6o",

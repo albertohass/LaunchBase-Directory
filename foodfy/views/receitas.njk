@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+{% block head %}
+    <title>Receitas FoodFy</title>
+    <link rel="stylesheet" href="css/stylesReceitas.css">
+{% endblock %}
+{% block content %}
+    <div class="cards">
+        {% for item in itens %}
+            <div class="card" id="{{item.title}}">
+                <div class="card-image">
+                    <img src="{{item.image}}" alt="{{item.title}}">
+                </div>
+                <div class="card-title">
+                    <p id="{{item.title}}">{{item.title}}</p>
+                </div>
+                <div class="card-person">
+                    <p>{{item.author}}</p>
+                </div>
+            </div>
+        {% endfor %}
+        {% for item in itens %}
+            <div class="card" id="{{item.id}}">
+                <div class="card-image">
+                    <img src="{{item.image}}" alt="{{item.id}}">
+                </div>
+                <div class="card-title">
+                    <p id="{{item.id}}">{{item.title}}</p>
+                </div>
+                <div class="card-person">
+                    <p>{{item.author}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="css/stylereceita.css">
+{% endblock head %}
+
+{% block content %}
+
+    <div class="receita-image">
+        <img src="{{item.url}}" alt="burguer">
+    </div>
+
+    <div class="receita-title">
+        <p class="principal">{{item.title}}</p>
+        <p class="sub">{{item.author}}</p>
+    </div>
+
+    <div class="content">
+       
+        <div class="ingredientes">
+            <div class="title">
+                <h1 class = "cont-princ">Ingredientes</h1>
+                <h3 class = "action">Esconder</h3>
+            </div>
+            <div class="fase0" id="fase0">
+                {% for ingredient in item.ingredients %}
+                    <li>{{ingredient}}</li>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="modo-preparo">
+            <div class="title">
+                <h1 class = "cont-princ">Modo de Preparo</h1>
+                <h3 class = "action">Esconder</h3>
+            </div>
+           <div class="fase1" id="fase1">
+                 {% for prep in item.preparation %}
+                    <li>{{prep}}</li>
+                {% endfor %}
+           </div> 
+        </div>  
+        
+        <div class="info">
+            <div class="title">
+                <h1 class = "cont-princ">Infomações Adicionais</h1>
+                <h3 class = "action">Esconder</h3>
+            </div>
+
+            <div class="fase2" id="fase2">
+                <p>{{item.information}}</p>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+    <script src="/js/scriptReceita.js"></script>
+{% endblock %}
+
