@@ -1,0 +1,131 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #7777;
+}
+
+header{
+    background-color: #4c5ed2;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.links{
+    font-size: 20px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.links a + a{
+    margin-left: 12px;
+}
+
+.links a :hover{
+    color: black
+}
+
+.links a.active{
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.links a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom:  -4px;
+}
+
+.links a:hover::after {
+    width: 100%;
+    transition: width 200ms ease-in-out;
+}
+
+
+/* card */
+
+.card{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+
+    box-shadow: 3px 3px 6px -2px black;
+    
+     animation-name: reload;
+     animation-duration: 200ms;
+     animation-timing-function: ease-in-out;
+}
+
+@keyframes reload{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.avatar{
+    background: url(https://source.unsplash.com/collection/8360382/500x500) no-repeat center center / cover;
+}
+
+.details{
+    text-align:  center;
+    padding: 50px;
+}
+
+.details .info{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+.details .info:last-child{
+    border: none;
+}
+
+.details .info div:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+    color: #7777;
+}
+
+.details .info div:nth-child(2){
+    font-size: 20px;
+    color: #555;
+}
+
+.details h3{
+    color: #4c5ed2;
+}
+
+.details .info span{
+
+    color: #777;
+    padding: 8px 16px;
+    border-radius: 15px;
+    border-radius: 5px;
+    background-color: rgba(199, 235, 0, 0.986);
+    display: inline-block;
+    margin-top: 5px;
+}
