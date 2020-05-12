@@ -28,9 +28,15 @@ Pode ser acessado um resumo em [Notion](https://www.notion.so/Cronograma-Semanal
 
 - [Iniciando com Front-End](https://github.com/albertohass/LaunchBase-Directory/tree/master/Iniciando%20FrontEnd)
 
+- [Iniciando com Back-End](https://github.com/albertohass/LaunchBase-Directory/tree/master/Iniciando_BackEnd)
+
 ## :bar_chart: Projetos
 
 - [FoodFy](https://github.com/albertohass/LaunchBase-Directory/tree/master/foodfy)
+
+- [GymManager](https://github.com/albertohass/LaunchBase-Directory/tree/master/Academia)
+
+- [SchoolManager](https://github.com/albertohass/LaunchBase-Directory/tree/master/schoolmanager)
 
 
 ## :clipboard: Updates
