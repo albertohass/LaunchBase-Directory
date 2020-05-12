@@ -16,7 +16,7 @@ Pode ser acessado um resumo em [Notion](https://www.notion.so/Cronograma-Semanal
   </a
 
  <a href="https://rocketseat.com.br" rel="nofollow">
-    <img alt="Made by Rocketseat" src="https://camo.githubusercontent.com/5cf08b70d6b8d6461312d17bdaebed7854f926ed/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d61646525323062792d526f636b6574736561742d253233463839353244" data-canonical-src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
+    <img alt="Made by Rocketseat" src="https://camo.githubusercontent.com/9f4bdadb199ff8512e9dcc9d559fd531184f7862/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416c626572746f2d496e2d626c7565" data-canonical-src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
   </a
 
 </p>
