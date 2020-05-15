@@ -1,3 +1,22 @@
 {
-  "teachers": []
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Alberto de Amorim Hass",
+      "birth": 932860800000,
+      "scholarity": "Mestrado",
+      "type": "Presencial",
+      "services": " Programação,Banco de Dados",
+      "created_at": 1589499561331
+    },
+    {
+      "id": 2,
+      "name": "Evelen Lidia de França Vicente ",
+      "birth": 922579200000,
+      "scholarity": "Medio",
+      "type": "Presencial",
+      "services": "Excel, Matemática",
+      "created_at": 1589503320703
+    }
+  ]
 }

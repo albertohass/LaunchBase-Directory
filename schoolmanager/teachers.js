@@ -1,5 +1,6 @@
 const fs = require('fs')
 const data = require("./data.json")
+const { age, graduation, date } = require("./utils.js")
 
 exports.post = function(req,res){
     
@@ -11,7 +12,7 @@ exports.post = function(req,res){
         }
     }
 
-    let {name, birth, scholarity, type, atuacao} = req.body
+    let {name, birth, scholarity, type, services} = req.body
 
     birth = Date.parse(birth)
     const created_at = Date.now()
@@ -23,7 +24,7 @@ exports.post = function(req,res){
         birth,
         scholarity,
         type,
-        atuacao,
+        services,
         created_at
     })
 
@@ -32,5 +33,47 @@ exports.post = function(req,res){
 
         return res.redirect("/teachers")
     })
+
+}
+
+exports.show = function (req, res) {
+    
+    const { id } = req.params
+    
+    const foundteachers = data.teachers.find(function(teacher){
+        return teacher.id == id
+    })
+    
+    if (!foundteachers) res.send("Invalid Teacher")
+
+    const teacher = {
+        ...foundteachers,
+        age: age(foundteachers.birth),
+        services: foundteachers.services.split(","),
+        scholarity: graduation(foundteachers.scholarity),
+        created_at: new Intl.DateTimeFormat("pr-BR").format(foundteachers.created_at)
+    } 
+
+    res.render("teachers/show",{teacher})
+}
+
+exports.edit = function (req , res) {
+    
+    const { id } = req.params
+
+    const foundteachers = data.teachers.find(function(teacher){
+        return teacher.id == id
+    })
+
+    if(!foundteachers) res.send("Edit error")
+
+    const teacher = {
+        ...foundteachers,
+        birth: date(foundteachers.birth)
+    }
+
+    console. log (id)
+    
+    res.render("teachers/edit", {teacher})
 
 }
