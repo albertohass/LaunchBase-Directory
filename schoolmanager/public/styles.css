@@ -62,7 +62,7 @@ header{
 
 .card{
     width: 800px;
-    height: 600px;
+    height: 100%;
     background-color: white;
     margin: 0 auto;
     margin-top: 50px;
@@ -161,10 +161,41 @@ input::placeholder{
     font-weight: normal;
 }
 
-button{
+button[type="submit"],a.button{
     margin-top: 64px;
     width: 100%;
+    font-size: 18px;
+    color: white;
     background-color:#4c5ed2;
     border-radius: 16px;
     height: 32px;
+}
+
+a.button{
+    display: block;
+    margin-top: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+
+button[type="submit"]:hover{
+    transition: 5ms;
+    background-color: #464397;
+    border: px black solid;
+}
+
+a.button:hover{
+    transition: 5ms;
+    background-color: #464397;
+    border: px black solid;
+}
+
+#form-delete button{
+    background-color: #f94633;
+    margin-top: 8px;
+}
+
+#form-delete button:hover{
+    background-color: red;
 }

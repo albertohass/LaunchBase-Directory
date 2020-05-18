@@ -1,24 +1,6 @@
 {
   "instructors": [
     {
-      "id": 1,
-      "name": "Evelen Lidia de França Vicente ",
-      "birth": 921974400000,
-      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
-      "gender": "F",
-      "services": "crossfit",
-      "created_at": 1589324447752
-    },
-    {
-      "id": 2,
-      "name": "Alberto de Amorim Hass",
-      "birth": 932860800000,
-      "avatar_url": "http://google.com",
-      "gender": "M",
-      "services": "musculação, crossfit",
-      "created_at": 1589324462266
-    },
-    {
       "id": 3,
       "name": "admin",
       "birth": 597974400000,
@@ -35,6 +17,15 @@
       "gender": "M",
       "services": "Levantamento de copo",
       "created_at": 1589411736152
+    },
+    {
+      "id": 5,
+      "name": "Evelen Lidia de França Vicente ",
+      "birth": 921974400000,
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "gender": "F",
+      "services": "crossfit",
+      "created_at": 1589753032074
     }
   ]
 }
